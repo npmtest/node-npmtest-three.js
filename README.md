@@ -1,4 +1,7 @@
-# test coverage for  [three.js (v0.77.1)](https://github.com/mrdoob/three.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-three.js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-three.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-three.js.svg)](https://travis-ci.org/npmtest/node-npmtest-three.js)
+# npmtest-three.js
+
+#### basic test coverage for  [three.js (v0.77.1)](https://github.com/mrdoob/three.js#readme)  [![npm package](https://img.shields.io/npm/v/npmtest-three.js.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-three.js) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-three.js.svg)](https://travis-ci.org/npmtest/node-npmtest-three.js)
+
 #### Note: 'three.js' npm package has been deprecated in favor of the 'three' npm package.
 
 [![NPM](https://nodei.co/npm/three.js.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/three.js)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-three.js/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-three.js/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-three.js/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-three.js/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-three.js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-three.js/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-three.js/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-three.js/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-three.js/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-three.js/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-three.js/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-three.js/build/coverage.html/index.html)
 
@@ -65,7 +68,8 @@
         "url": "git+https://github.com/mrdoob/three.js.git"
     },
     "scripts": {},
-    "version": "0.77.1"
+    "version": "0.77.1",
+    "bin": {}
 }
 ```
 
